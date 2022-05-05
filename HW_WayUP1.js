@@ -4,7 +4,7 @@ let user = {
     city: "Minsk",
     country: "Belarus",
     population: 2049000,
-    stadium: [true]
+    stadium: true
 }
 
 //Task 2
@@ -20,9 +20,8 @@ let time = 2;
 let speedOfFirst = 95;
 let speedOfSecond = 114;
 
-let approachSpeed = speedOfFirst + speedOfSecond;
-let cityDistance = approachSpeed * time;
-console.log(cityDistance)
+let result = time * (speedOfFirst + speedOfSecond);
+console.log(result)
 
 //Task 4
 
