@@ -45,4 +45,5 @@ switch(randomNumber) {
      break;
 default:
         console.log("randomNumber больше 20, и меньше 50"); 
+        break;
 }
