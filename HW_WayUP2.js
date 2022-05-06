@@ -33,16 +33,16 @@ const array = [
     'Савельич'
 ]
 
-let result = ['В ту же ночь','приехал', 'я в Симбирск','где должен был', 'пробыть сутки', 'для закупки', 'нужных вещей,', 'что и было поручено Савельичу.', 'Я остановился', 'в трактире.', 'Савельич', 'с утра', 'отправился по лавкам'  ]
+let result = array[3] + ' ' + array[7] + ' ' + array[0] + ' ' + array[8] + ' ' + array[11] + ' ' + array[5] + ' ' + array[9] + ' ' + array[6] + ' ' + array[4] + ' ' + array[1] + ' ' + array[12] + ' ' + array[2] + ' ' + array[10]
 console.log(result);
 
 //Task 4
+const fullNameFunction = (firstName, lastName) => {
+    const fullName = `${firstName} ${lastName}`;
+    console.log(fullName);
+};
 
-let firstName2 = 'Angelina';
-let lastName2 = 'Novikova';
-const fullName = `${firstName2} ${lastName2}`;
-console.log(fullName);
-
+fullNameFunction('Angelina', 'Novikova');
 
 //Task 5
 
