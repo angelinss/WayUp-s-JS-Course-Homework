@@ -37,6 +37,7 @@ let result = array[3] + ' ' + array[7] + ' ' + array[0] + ' ' + array[8] + ' ' +
 console.log(result);
 
 //Task 4
+
 const fullNameFunction = (firstName, lastName) => {
     const fullName = `${firstName} ${lastName}`;
     console.log(fullName);
